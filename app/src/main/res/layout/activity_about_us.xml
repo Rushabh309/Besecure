@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@string/besecure_app_was_devloped_by"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:width="50dp"
+        android:height="100dp"
+        android:text="@string/besecure_app_was_devloped_by"
+        tools:text="@string/besecure_app_was_devloped_by" />
+
+        <TextView
+            android:background="@drawable/custom_aboutus"
+            android:height="20dp"
+            android:width="50dp"
+            android:gravity="center"
+            android:text="@string/patel_dhruvi_email_dhruvipatel41013_gmail_com"
+            android:layout_height="30dp"
+            android:layout_width="400dp" />
+
+        <TextView
+            android:width="50dp"
+            android:height="20dp"
+            android:background="@drawable/custom_aboutus"
+            android:gravity="center"
+            android:text="gohil_rushabh_email_18IT037_charusat_edu_in"
+            android:layout_height="30dp"
+            android:layout_width="400dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>

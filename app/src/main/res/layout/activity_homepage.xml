@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Homepage">
+
+    <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/in_case_of_an_emergency_press_besecure_button"/>
+
+    <Button
+            android:id="@+id/btnhelp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/besecure"
+            android:textSize="20sp"
+            android:paddingTop="30dp"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:background="@drawable/custom_button"/>
+    <TextView
+            android:layout_width="400dp"
+            android:layout_height="55dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/emergency_number_of_gujarat"
+            android:gravity="center"/>
+    <TextView
+            android:text="@string/women_helpline_181_ambulance_108_police_100_fire_101_women_emergency_helpline_ahmedabad_1091_state_women_commision_079_23251604_613_ahmedabad_women_group_7926441214_self_employed_women_s_association_079_25506477"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/custom_text"/>
+
+</LinearLayout>
